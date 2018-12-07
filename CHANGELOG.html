@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RUpms Website Changelog</title>
+	<style type="text/css">
+		h2 {color: brown; }
+		h4 { color: #C30; }
+		code { color: blue; }
+		li { margin-bottom: 0.5em; }
+		.code-comment { color: gray; }
+	</style>
+</head>
+
+<body>
+<h1>Changelog</h1>
+
+<h2>2018-1207</h2>
+
+<ul>
+	<li>Updating original PMS website with Rutgers SEBS Template:
+		<ul>
+			<li>Pushed yesterdays changes.</li>
+			<li>Created many pages.</li>
+			
+
+		</ul>
+	</li>
+	<li>Sent to Mike </li>
+</ul>
+
+<h2>2018-1204</h2>
+
+<ul>
+	<li>Updating original PMS website with Rutgers SEBS Template:
+		<ul>
+			<li>Created new git branch, new1 to absorb changes.</li>
+			<li>Evaluated template files and determined that index 4 was the best option to display our current information.</li>
+			<li>Migrated new files into new1 and began to update files.</li>
+			<li>Updated index to match style of template.</li>
+			<li>Altered Links to follow appropriate CAIT and SOE addresses.</li>
+			<li>Made a fudged up icons-sebs-unit.png file that needs to be updated ASAP.</li>
+			<li>Evaluated Sub-unit template; decided to go with original unit template.</li>
+			<li>Made a fudged up icons-sebs-unit.png file that needs to be updated ASAP.</li>
+			<li>Updated copyright date to 2018.</li>
+			<li>Updated webmaster, building maps, addresses, etc to match CAIT.</li>
+
+		</ul>
+	</li>
+	<li>Updated copyright date to 2018</li>
+</ul>
+
+<h2>2016-0122</h2>
+
+<ul>
+	<li>Dang, ther were changes in 2016 that I forgot to document.</li>
+</ul>
+
+<h2>2017-0626</h2>
+
+<ul>
+	<li>Made multiple accessibility changes to all templates and css files:
+		<ul>
+			<li>Used visually-hide class</li>
+			<li>Moved label in search box closer to element it labels</li>
+			<li>Added accessibility footer</li>
+			<li>Updated HTML tag to allow user resizing</li>
+			<li>Chaned menu column headers from H3 to H2</li>
+			<li>Changed style of copyright from uppercase to sentence case, increased font size</li>
+		</ul>
+	</li>
+	<li>Updated copyright date to 2017</li>
+</ul>
+
+<h2>2016-0122</h2>
+
+<ul>
+	<li>Dang, there were changes in 2016 that I forgot to document.</li>
+</ul>
+
+<h2>2015-1027:</h2>
+
+<h3>Updates to /Templates/sebs-unit.dwt and /Templates/sebs-sub-unit.dwt</h3>
+
+<ul>
+	<li>Fixed SEBS and NJAES links in footer</li>
+</ul>
+
+<h3>Updates to /2015/css/sebs-unit.css (and sebs-unit.min.css)</h3>
+
+<ul>
+	<li>Added <code>z-index: 99;</code> to <code>.left-off-canvas-menu</code> (line 6907)
+</ul>
+
+
+<h2>2015-0903:</h2>
+
+<h3>Updates to /Templates/sebs-unit.dwt and /Templates/sebs-sub-unit.dwt</h3>
+
+<ul>
+	<li>
+		Added webmaster email address to footer, below phone number:<br />
+		<br />
+		<code>
+			Webmaster: &lt;a href=&quot;mailto:webmaster&#064;yoursite&#046;rutgers&#046;edu&quot;&gt;webmaster&#064;yoursite&#046;rutgers&#046;edu&lt;/a&gt;
+		</code>
+	</li>
+</ul>
+
+
+<h2>2015-0722:</h2>
+
+<h3>Updates to /2015/css/sebs-unit.css (and sebs-unit.min.css)</h3>
+
+<ul>
+	<li>Added the following:<br /><br />
+		<code>
+			.spaced { margin-bottom: 0; }<br />
+			.spaced li { margin-bottom: 1rem; }<br />
+			<br />
+			.indent { margin-left: 1rem; }<br />
+			<br />
+			.important { color: #d21034 <span class="code-comment">/*red*/</span>; font-style: italic; font-weight: bold; }<br />
+			<br />
+			.footnote,<br />
+			.people .degree,<br />
+			.date { font-size: smaller; }<br />
+			<br />
+			#right-column .side-nav { line-height: 1.3; margin-bottom: 0; }<br />
+			#right-column .side-nav li { margin-bottom: 0.375rem; }<br />
+			<br />
+			.content-image { height: auto; margin: 0 0 1rem 0; }<br />
+			.content-image.left { margin-right: 1rem; }<br />
+			.content-image.right { margin-left: 1rem; }<br />
+			<span class="code-comment"> /*NOTE: When using .content-image in conjunction with either .left or .right, you must use CSS to give your image a width.  You might have to give it more than one width for different responsive steps.  Start with the smallest step and proceed upward.*/</span><br />
+			.center { display: block; margin-left: auto; margin-right: auto; }<br />
+			<span class="code-comment"> /*NOTE: .content-image.center will center an image on a page, but text will NOT wrap around it.  When using .content-image in conjunction with .center, you must use CSS to give your image a width.  You might have to give it more than one width for different responsive steps.  Start with the smallest step and proceed upward.*/</span><br />
+			<br />
+			.panel.left { margin-right: 1rem; }<br />
+			.panel.right { margin-left: 1rem; }<br />
+			<span class="code-comment"> /*NOTE: When using .panel in conjunction with either .left or .right, you must use CSS to give your panel a width.  You might have to give it more than one width for different responsive steps.  Start with the smallest step and proceed upward.*/</span><br />
+			<br />
+			.two-column { margin-bottom: 1rem; -webkit-columns: 2 22rem; -moz-columns: 2 22rem; columns: 2 22rem; -webkit-column-gap: 2rem; -moz-column-gap: 2rem; olumn-gap: 2rem; -webkit-column-rule: 1px solid #ccc; -moz-column-rule: 1px solid #ccc; column-rule: 1px solid #ccc; }<br />
+		</code>
+	</li>
+</ul>
+
+<h3>Updates to /Templates/sebs-unit.dwt:</h3>
+
+<ul>
+	<li>
+		Changed these three lines in <code>&lt;head&gt;</code> from:<br />
+		<br />
+		<code>
+			&nbsp; &lt;meta property=&quot;og:image&quot; content=&quot;//rcws3.rutgers.edu/RU_INF_SEAL.jpg&quot; /&gt;<br />
+			&nbsp; &lt;link rel=&quot;icon&quot; href=&quot;//rcws3.rutgers.edu/favicon.ico&quot; type=&quot;image/x-icon&quot; /&gt;<br />
+			&nbsp; &lt;link rel=&quot;shortcut icon&quot; href=&quot;//rcws3.rutgers.edu/favicon.ico&quot; type=&quot;image/x-icon&quot; /&gt;<br />
+		</code>
+		<br />
+		To:<br />
+		<br />
+		<code>
+			&nbsp; &lt;meta property=&quot;og:image&quot; content=&quot;//yoururlhere.rutgers.edu/RU_INF_SEAL.jpg&quot; /&gt;<br />
+			&nbsp; &lt;link rel=&quot;icon&quot; href=&quot;//yoururlhere.rutgers.edu/favicon.ico&quot; type=&quot;image/x-icon&quot; /&gt;<br />
+			&nbsp; &lt;link rel=&quot;shortcut icon&quot; href=&quot;//yoururlhere.rutgers.edu/favicon.ico&quot; type=&quot;image/x-icon&quot; /&gt;<br />
+		</code>
+	</li>
+</ul>
+
+</body>
+</html>
