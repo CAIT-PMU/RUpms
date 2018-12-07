@@ -1,0 +1,275 @@
+<!doctype html>
+<!--[if IE 9 ]>	<html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta property="og:description" content="." />
+	<meta property="og:image" content="//yoururlhere.rutgers.edu/RU_INF_SEAL.jpg" />
+	<link rel="icon" href="//yoururlhere.rutgers.edu/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="//yoururlhere.rutgers.edu/favicon.ico" type="image/x-icon" />
+<!-- TemplateBeginEditable name="doctitle" -->
+	<title> ( ... at Rutgers SEB)</title>
+<!-- TemplateEndEditable -->
+<!--[if (gte IE 9)|!(IE)]><!-->
+	<link rel="stylesheet" href="../2015/css/sebs-unit.min.css" />
+	<link rel="stylesheet" href="../2015/css/sebs-sub-unit.min.css" />
+<!--<![endif]-->
+<!--[if IE 9]>
+	<link rel="stylesheet" href="../2015/css/sebs-unit-ie.css" />
+<![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+	<meta name="keywords" content="..., Rutgers, SEBS" />
+	<meta name="description" content="... at Rutgers SEBS." />
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="Is Homepage" type="boolean" value="false" -->
+<!-- TemplateParam name="Right Sidebar Option" type="boolean" value="false" -->
+<!-- TemplateParam name="Breadcrumbs Option" type="boolean" value="false" -->
+<!-- TemplateParam name="Supertitle Option" type="boolean" value="false" -->
+<!-- TemplateParam name="Page Title Option" type="boolean" value="true" -->
+<!-- TemplateParam name="Subtitle Option" type="boolean" value="false" -->
+</head>
+
+<body>
+<!--Rutgers-SEBS Logo-->
+	<div id="main-logo-wrapper" class="row">
+		<div class="large-12 columns">
+			<a href="https://sebs.rutgers.edu/" id="main-logo"><span class="visually-hide">Rutgers School of Environmental and Biological Sciences</span></a>
+		</div>
+	</div>
+
+<!--Uber-Nav-->
+	<div id="uber-nav-wrapper" class="contain-to-grid hide-for-small">
+		<nav class="top-bar" id="uber-nav" data-topbar>
+			<section class="top-bar-section">
+				<ul class="left">
+					<li><a href="http://rutgers.edu/">Rutgers</a></li>
+					<li><a href="http://newbrunswick.rutgers.edu/">Rutgers&ndash;New Brunswick</a></li>
+					<li><a href="http://njaes.rutgers.edu/"><span class="show-for-xlarge-up">New Jersey Agricultural Experiment Station</span><span class="show-for-large-down">NJAES</a></li>
+					<li><a href="https://my.rutgers.edu/">myRutgers</a></li>
+					<li><a href="http://search.rutgers.edu/web.html">Search Rutgers</a></li>
+				</ul>
+			</section>
+		</nav>
+	</div>
+
+<!--Meta-Unit Bar-->
+	<div id="meta-unit-bar-wrapper" class="contain-to-grid2">
+		<div id="meta-unit-bar" class="top-bar">
+			<section class="top-bar-section">
+				<ul class="left">
+					<li><a href="">Unit Name Here</a></li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+<!--Site Name-->
+	<div id="unit-bar-wrapper" class="contain-to-grid">
+		<nav id="unit-bar" class="top-bar">
+			<ul class="title-area">
+				<li class="name"><!-- TemplateBeginIf cond="_document['Is Homepage']" --><h1><!-- TemplateEndIf --><a href="../index4.html">Sub-Unit Name Here</a><!-- TemplateBeginIf cond="_document['Is Homepage']" --></h1><!-- TemplateEndIf --></li>
+			</ul>
+		</nav>
+	</div>
+	
+<!--Search Bar-->
+	<div id="search-bar-wrapper" class="contain-to-grid2">
+		<div id="search-bar" class="top-bar">
+			<section class="top-bar-section">
+				<ul class="right">
+					<li class="has-form">
+						<form id="search" method="get" name="searchform" action="http://search.rutgers.edu/web.html" onsubmit="return searchsite()">
+							<input type="hidden" name="site" id="site" value="yoururlhere.rutgers.edu" />
+							<label class="visually-hide" for="search-text">Search</label>
+							<input type="text" name="q" id="search-text" placeholder="Search This Site" />
+							<input type="submit" id="search-submit" value="Search" />
+						</form>
+					</li>						
+				</ul>
+			</section>
+		</div>
+	</div>
+
+<!-- Main Page Content and Sidebar -->
+	<div id="content-wrapper" class="row off-canvas-wrap" data-offcanvas>
+		<div class="inner-wrap">
+			<nav class="tab-bar hidden-for-large-up">
+				<a class="left-off-canvas-toggle" href="#"><span class="tab-bar-text">Menu</span> <i class="fi-list"><span class="visually-hide">Menu</span></i></a>
+			</nav>
+<!-- TemplateBeginIf cond="_document['Is Homepage']" -->
+<!-- Homepage Photo -->
+			<div class="large-12 columns" role="content">
+<!-- TemplateBeginEditable name="Homepage Photo" -->
+				<img class="main-photo" src="../2015/images/features/GH13-Passion-Puddle-696-Edit-large.jpg" alt="Photo." />
+<!-- TemplateEndEditable -->
+			</div>
+<!-- End Homepage Photo -->
+<!-- TemplateEndIf -->
+<!-- Left Sidebar -->
+			<aside id="left-column" class="large-3 columns left-off-canvas-menu">
+				<a class="exit-off-canvas"><i class="fi-x"><span class="hide-for-small-up">Close Menu</span></i></a>
+				<h2>Main menu</h2>
+				<ol class="side-nav main-menu" role="navigation">
+<!-- TemplateBeginIf cond="!_document['Is Homepage']" -->
+					<li><a href="../index4.html">Dept. Home</a></li>
+<!-- TemplateEndIf -->
+					<li><a href="../about.html">About Us</a></li>
+					<li>
+						<a href="">Undergraduate Programs</a>
+						<ol class="side-nav sub-main">
+							<li><a href="">Environmental and Business Economics Major</a>
+							<li><a href="">Environmental and Business Economics Minor</a></li>
+						</ol>
+					</li>
+					<li>
+						<a href="">Combined Programs</a>
+						<ol class="side-nav sub-main">
+							<li><a href="">5-Year BS/MS Food and Business Economics Program</a></li>
+						</ol>
+					</li>
+					<li>
+						<a href="">Graduate Programs</a>
+						<ol class="side-nav sub-main">
+							<li><a href="">Food and Business Economics Graduate Program</a>
+						</ol>
+					</li>
+					<li><a href="">Personnel</a></li>
+					<li><a href="">Seminars</a></li>
+					<li><a href="">Contact Us</a></li>
+				</ol>
+				
+				<ol class="social">
+					<li><a href="1"><i class="fi-social-facebook"><span class="visually-hide">Follow us on Facebook</span></i></a></li>
+					<li><a href="2"><i class="fi-social-google-plus"><span class="visually-hide">Follow us on Google+</span></i></a></li>
+					<li><a href="3"><i class="fi-social-linkedin"><span class="visually-hide">Follow us on LinkedIn</span></i></a></li>
+					<li><a href="4"><i class="fi-social-twitter"><span class="visually-hide">Follow us on Twitter</span></i></a></li>
+					<li><a href="5"><i class="fi-social-youtube"><span class="visually-hide">Follow us on YouTube</span></i></a></li>
+				</ol>
+			</aside>
+<!-- End Left Sidebar -->
+
+<!-- Content Wrapper -->
+<!-- TemplateBeginIf cond="_document['Right Sidebar Option']" -->
+			<div id="center-column" class="large-6 columns" role="content">
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="!_document['Right Sidebar Option']" -->
+			<div id="center-column" class="large-9 columns" role="content">
+<!-- TemplateEndIf -->
+
+<!-- Breadcrumbs -->
+<!-- TemplateBeginIf cond="_document['Breadcrumbs Option']" -->
+				<nav class="breadcrumb">
+					<a class="home-icon" href="../index.html"><i class="fi-home"><span class="visually-hide">Home</span></i></a>
+<!-- TemplateBeginEditable name="Breadcrumbs" -->
+					<a href="parentpage.html">Parent Page</a>
+<!-- TemplateEndEditable -->
+				</nav>
+<!-- TemplateEndIf -->
+
+<!-- Title Area -->
+<!-- TemplateBeginIf cond="!_document['Is Homepage']" -->
+				<div class="page-title-area">
+<!-- TemplateBeginIf cond="_document['Supertitle Option']" -->
+					<div class="supertitle"><!-- TemplateBeginEditable name="Supertitle" -->Supertitle<!-- TemplateEndEditable --></div>
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="_document['Page Title Option']" -->
+					<h1><!-- TemplateBeginEditable name="Page Title" -->Page Title<!-- TemplateEndEditable --></h1>
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="_document['Subtitle Option']" -->
+					<div class="subtitle"><!-- TemplateBeginEditable name="Subtitle" -->Subtitle<!-- TemplateEndEditable --></div>
+<!-- TemplateEndIf -->
+				</div>
+<!-- TemplateEndIf -->
+            
+<!-- Actual Content -->
+				<article id="main-content">
+<!-- TemplateBeginEditable name="Main Content" -->
+<p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
+			
+<p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+			
+<p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+			
+<p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+<!-- TemplateEndEditable -->
+				</article>
+<!-- End Actual Content -->
+			</div>
+<!-- End Content Wrapper -->
+<!-- TemplateBeginIf cond="_document['Right Sidebar Option']" -->
+
+<!-- Right Sidebar -->
+			<aside id="right-column" class="large-3 columns">
+<!-- TemplateBeginEditable name="Right Sidebar" -->
+<div class="panel">
+	<h4>Feature</h4>
+	<p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow.</p>
+	<h4>News &amp; Events</h4>
+	<ol class="side-nav">
+		<li><a href="">
+			<h5>Pork drumstick turkey fugiat.r</h5>
+			<p>Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow.</p>
+		</a></li>
+		<li><a href="">
+			<h5>Pork drumstick turkey fugiat.</h5>
+			<p>Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow.</p>
+		</a></li>
+	</ol>
+</div>
+<!-- TemplateEndEditable -->
+			</aside>
+<!-- End Right Sidebar -->
+<!-- TemplateEndIf -->
+		<!-- close the off-canvas menu -->
+			<a class="exit-off-canvas"></a>
+		</div>
+	</div>
+<!-- End Main Content and Sidebar -->
+	  
+<!--Footer-->
+	<footer id="footer">
+		<div class="row">
+			<div class="large-4 medium-6 columns">
+				<p class="contact-info">
+					Department of Agricultural, Food, and Resource Economics<br />
+					School of Environmental and Biological Sciences<br />
+					Rutgers, The State University of New Jersey<br />
+					55 Dudley Rd., New Brunswick, NJ 08901-8520<br />
+					<a href="http://rumaps.rutgers.edu/location/cook-office-building">Cook Office Bldg.</a> | 848-932-9155<br />
+					Webmaster: <a href="mailto:webmaster&#064;yoursite&#046;rutgers&#046;edu">webmaster&#064;yoursite&#046;rutgers&#046;edu</a>
+				</p>
+
+				<p class="copyright"><a href="http://www.rutgers.edu/site-resource/copyright-information/">Copyright</a> &copy; 2017 Rutgers, The State University of New Jersey.</p>
+
+				<p class="copyright">Rutgers University is an equal access/equal opportunity institution. If you have trouble accessing this page because of a disability, please contact the webmaster at 848-932-4202 or <a href="mailto:webmaster&#064;sebs&#046;rutgers&#046;edu">webmaster&#064;sebs&#046;rutgers&#046;edu</a>.</p>
+			</div>
+
+			<div class="large-4 medium-6 columns">
+				<ol class="linklist">
+					<li><a href="http://rutgers.edu/">Rutgers, The State University of New Jersey</a></li>
+					<li><a href="http://newbrunswick.rutgers.edu/">Rutgers&ndash;New Brunswick</a></li>
+					<li><a href="https://my.rutgers.edu/">myRutgers</a></li>
+					<li><a href="http://search.rutgers.edu/web.html">Search Rutgers</a></li>
+				</ol>
+			</div>
+
+			<div class="large-4 medium-6 columns" id="campaign">
+				<ol class="linklist">
+					<li><a href="https://sebs.rutgers.edu/">School of Environmental and Biological Sciences</a></li>
+					<li><a href="http://njaes.rutgers.edu/">New Jersey Agricultural Experiment Station</a></li>
+					<li><a href="http://sebsnjaesnews.rutgers.edu/">SEBS and NJAES Newsroom</a></li>
+				</ol>
+			</div>
+
+		</div> <!--end of .row-->
+	</footer>
+		
+<!--Javascripts-->
+	<script src="../2015/js/sebs-unit.min.js"></script>
+    <script>$(document).foundation();</script>
+<!-- TemplateBeginEditable name="Javascript" -->
+<!-- TemplateEndEditable -->
+</body>
+</html>

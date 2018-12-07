@@ -1,0 +1,7 @@
+/* ######################################### */
+/* ### This file is for IE8 and IE9 ONLY ### */
+/* ######################################### *
+
+/*For IE 9 and under */
+
+iframe { border: none !important; }
