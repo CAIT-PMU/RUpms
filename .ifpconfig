@@ -1,0 +1,11 @@
+{
+    "protocol": "sftp",
+    "host": "",
+    "port": 22,
+    "user": "user",
+    "pass": "pass",
+
+    "session": "",
+    "rs_name": "",
+    "rs_tags": []
+}
